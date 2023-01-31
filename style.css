@@ -1,10 +1,8 @@
 body {
   font-family: Arial;
-  background: radial-gradient(
-    circle,
-    rgba(244, 244, 244, 1) 6%,
-    rgba(194, 249, 255, 1) 21%
-  );
+  background: radial-gradient(circle,
+      rgba(244, 244, 244, 1) 6%,
+      rgba(194, 249, 255, 1) 21%);
 }
 
 form {
@@ -14,14 +12,13 @@ form {
   line-height: 40px;
   text-align: center;
   padding-bottom: 12px;
-  background: radial-gradient(
-    circle,
-    rgba(244, 244, 244, 1) 76%,
-    rgba(194, 249, 255, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(244, 244, 244, 1) 76%,
+      rgba(194, 249, 255, 1) 100%);
   border-radius: 40px;
   box-shadow: 5px 5px 10px 10px rgba(0, 81, 148, 0.5);
 }
+
 /* 2 Divs Styles */
 .main-1,
 .main-2 {
@@ -34,11 +31,13 @@ h1 {
   color: rgb(0, 113, 166);
   text-shadow: 1px 1px 10px rgba(0, 81, 148, 0.5);
 }
+
 /* Inputs Styles */
 input {
   border-radius: 5px;
   border: rgb(114, 207, 250) 2px groove;
 }
+
 /* 3 Buttons Styles */
 input[type="reset"],
 input[type="submit"],
@@ -52,6 +51,7 @@ input[type="button"] {
   border-radius: 5px;
   background-color: rgb(114, 207, 250);
 }
+
 /* 3 Buttons Transitions */
 input[type="reset"]:hover,
 input[type="submit"]:hover,
@@ -60,12 +60,14 @@ input[type="button"]:hover {
   background-color: rgb(59, 190, 251);
   box-shadow: 1px 1px 10px rgba(0, 81, 148, 0.5);
 }
+
 /* All Legends Styles */
 legend {
   font-size: 20px;
   text-shadow: 1px 1px 1px;
   color: rgb(0, 113, 166);
 }
+
 /* All Fields Styles */
 .field-1 {
   width: 62%;
@@ -96,17 +98,17 @@ legend {
   background-color: rgb(206, 232, 244);
   box-shadow: 1px 1px 10px rgba(0, 81, 148, 0.5);
 }
+
 /* All Labels Styles */
 label {
   padding: 8px 16px;
   border-radius: 30px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 38%,
-    rgba(233, 233, 233, 1) 91%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 1) 38%,
+      rgba(233, 233, 233, 1) 91%);
   box-shadow: 1px 1px 10px rgba(0, 81, 148, 0.5);
 }
+
 /* Range Box Styles */
 input[type="range"] {
   width: 80px;
